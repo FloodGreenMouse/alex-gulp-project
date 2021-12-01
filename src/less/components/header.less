@@ -1,0 +1,50 @@
+.header-component {
+  max-width: 1233px;
+  padding-top: 87px;
+  margin: auto auto 36px;
+
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      span {
+        font-weight: 700;
+        color: @color-white;
+        font-size: 50px;
+        line-height: 1;
+      }
+    }
+
+    .menu {
+      display: flex;
+      align-items: center;
+
+      ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin-left: 0;
+        margin-right: 36px;
+        padding: 0;
+
+        li {
+          margin-right: 25px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          a {
+            font-size: 20px;
+            line-height: 1;
+            color: @color-white;
+            font-weight: 700;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
